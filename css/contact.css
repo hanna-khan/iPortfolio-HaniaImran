@@ -1,0 +1,50 @@
+.bg {
+    background-color: #ea289011;
+    height: 400px;
+    width: 100%;
+}
+
+.header-text {
+    max-width: 400px;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    margin-top: 10px;
+}
+
+.content {
+    line-height: 2;
+}
+
+.circle,
+.line1,
+.line2,
+.line3,
+footer,
+nav ul li::after {
+    background: #ea288f;
+}
+
+.btn {
+    color: #ea288f;
+    border: 1px solid #ea288f;
+}
+
+.btn:hover {
+    border: 1px solid #ea288f;
+    background: #ea288f;
+    transition: 1s;
+    color: #fff;
+}
+
+nav ul li:hover::after {
+    width: 100%;
+}
+
+@media screen and (max-width:380px) {
+    .bg {
+        height: 280px;
+    }
+    nav ul li {
+        padding-left: 10px;
+    }
+}

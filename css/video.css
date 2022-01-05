@@ -1,0 +1,89 @@
+.header-text .h1 {
+    color: #000000;
+}
+
+@keyframes animate {
+    0%,
+    18%,
+    20%,
+    50.1%,
+    60%,
+    65.1%,
+    80%,
+    90.1%,
+    92% {
+        color: #111213;
+        /* text-shadow: none; */
+    }
+    18.1%,
+    20.1%,
+    30%,
+    50%,
+    60.1%,
+    65%,
+    80.1%,
+    90%,
+    92.1%,
+    100% {
+        color: #393e41;
+        /* text-shadow: 0 0 0 10px #03bcf4, 0 0 0 20px #03bcf4, 0 0 0 40px #03bcf4, 0 0 0 80px #03bcf4, 0 0 0 100px #03bcf4, */
+    }
+}
+
+.circle,
+.line1,
+.line2,
+.line3,
+footer,
+nav ul li::after {
+    background: #000000
+}
+
+.common-btn {
+    border-color: #000;
+}
+
+.course {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.course h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.course p {
+    font-size: 14px;
+    color: #777;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row {
+    justify-content: space-between;
+    margin-top: 5%;
+    display: flex;
+}
+
+.course .course-column {
+    flex-basis: 31%;
+    background-color: #00000012;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.course a {
+    padding: 2px 15px;
+    color: #000;
+}
+
+.course .course-column:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
